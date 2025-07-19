@@ -1,8 +1,17 @@
 .Attempt-List-Main {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 25vw;
-  padding: 0 2em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 25vw;
+    padding: 0 2em;
 }
+
+.Attempt-List {
+    margin: 0;
+    padding: 0;
+}
+
+    .Attempt-List li {
+        text-align: left;
+    }
